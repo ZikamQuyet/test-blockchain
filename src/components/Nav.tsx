@@ -13,7 +13,6 @@ function Nav() {
         boxShadow={"2xl"}
       >
         <NavLink to={"/"}>Account Wallet</NavLink>
-        <NavLink to={"/balance-wallet"}>Balance Wallet</NavLink>
         <NavLink to={"/create-bond"}>Create bond</NavLink>
         <NavLink to={"/list-bond"}>List bond</NavLink>
       </Flex>

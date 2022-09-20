@@ -40,7 +40,7 @@ function ListBonds1() {
   }, []);
 
   return (
-    <div>
+    <>
       <TableContainer maxW={"1200px"} w={"100%"} mx="auto">
         <Table variant="simple">
           <Thead>
@@ -76,7 +76,7 @@ function ListBonds1() {
           </Tbody>
         </Table>
       </TableContainer>
-    </div>
+    </>
   );
 }
 
