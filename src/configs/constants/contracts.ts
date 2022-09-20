@@ -1,0 +1,99 @@
+export default {
+  posiBusdPair: {
+    97: "0x00222d964a2077301309809ab3bf56485c126a9c",
+    56: "0x00222d964a2077301309809ab3bf56485c126a9c",
+  },
+  posiVault: {
+    97: "0x9CCa2733638D9cf15B3C5E2f359520fe8f1642b4",
+    56: "0xf35848441017917a034589BfbEc4B3783BB39cb2",
+  },
+  positionReferral: {
+    97: "0xfE2D545d214D51e8028947CFD15c9439D3DE3A33",
+    56: "0xfE2D545d214D51e8028947CFD15c9439D3DE3A33",
+  },
+  positionTokenGovernor: {
+    97: "0x0F8D95F2b80517fe907637CdbE5fcC01196eE9f1",
+    56: "0x89a0380D83a53310141308EA6b113173Ff6f1200",
+  },
+  generalNFTReward: {
+    97: "0x4820923cAEfcaa4e8Aa0b2c939b9FDc33949ADec",
+    56: "0xbE9FF181BFA9dd78191B81B23Fd4ff774a3fB4F1",
+  },
+  newGeneralNFTReward: {
+    97: "0x3f70709d459e19df588a069900d1f9285fcd8bbe",
+    56: "0x6257229fa379afdbb91732091b5de32cdb759845",
+  },
+  v3GeneralNFTReward: {
+    97: "0xd7F92914508495D58894be0aE7c9308e5da5C95D",
+    56: "0xce0a236e240906600fe652bffba67b8d26387445",
+  },
+  marketPlaceProxy: {
+    97: "0x05E5b3CD263C4Cd40CFA74B5e221DbEDE60c632E",
+    56: "0x05E5b3CD263C4Cd40CFA74B5e221DbEDE60c632E",
+  },
+  posiNFT: {
+    97: "0x66EE7571B7de1A5dFA2f7A889f118a175A2eADf7",
+    56: "0xecA16dF8D11d3a160Ff7A835A8DD91e0AE296489",
+  },
+  posiNFTFactory: {
+    97: "0x48d902323f042670EE02C19AC938D4ea30B5Fac6",
+    56: "0x9D95b5eA6C8f678B7486Be7a6331ec10A54156BD",
+  },
+  masterChef: {
+    97: "0xfbB0a9c48eDe2fF3Aad8b0b7c79c8eFa8221121B", // masterChef testnet
+    56: "0x0c54b0b7d61de871db47c3ad3f69feb0f2c8db0b",
+  },
+  posiNFTMintProxy: {
+    97: "0x1543DBA33deDe48EBefB509c81c0e178d138b432",
+    56: "0xd8b6E267a0A46E13047056F105787dB9aFFb4b9a",
+  },
+  masterChefv2: {
+    97: "0xfbB0a9c48eDe2fF3Aad8b0b7c79c8eFa8221121B", // masterChef testnet
+    56: "0xB02de8F384613d0aa2521B188b55c4D006dDB2D1",
+  },
+  sousChef: {
+    97: "0xfbB0a9c48eDe2fF3Aad8b0b7c79c8eFa8221121B", // sousChef testnet
+    56: "0x0c54b0b7d61de871db47c3ad3f69feb0f2c8db0b",
+  },
+  mulltiCall: {
+    56: "0x1ee38d535d541c55c9dae27b12edf090c608e6fb",
+    97: "0x67ADCB4dF3931b0C5Da724058ADC2174a9844412",
+  },
+  bondStakingContractAddress: {
+    97: "0xD0A6C46316f789Ba3bdC320ebCC9AFdaE752fd73", // masterChef testnet
+    56: "0x0c54b0b7d61de871db47c3ad3f69feb0f2c8db0b",
+  },
+  masterchefCake: {
+    97: "0x1d32c2945C8FDCBc7156c553B7cEa4325a17f4f9",
+    56: "0x73feaa1eE314F8c655E354234017bE2193C9E24E",
+  },
+  liquidityRewardNft: {
+    97: "0x095dd8b835667B83e6085357D2CC2ED0f3699508",
+    56: "0x095dd8b835667B83e6085357D2CC2ED0f3699508",
+  },
+  lottery: {
+    97: "0x6d43fdfc691c15bd8481c897360034928c536248",
+    56: "0xe0b165670f303c113e88fa04f50dbbcf434f0a91",
+  },
+  positionTokenBuyTicket: {
+    97: "0xE0504DC5b1f96b7DB4B198573D83f119A27F55a4",
+    56: "0xc2d7a85debcadfc17bf62a50b79cbeb19b314c4b",
+  },
+  posiNftBirthdayMint: {
+    97: "0xA3f003Ac9eC0bD4909a39C44c08D5e5e24C0650D",
+    56: "0x6fFEdDe1bE28377fFF1A88C459C2DeA959e3a685",
+  },
+  vrfCoordinator: {
+    97: "0x6A2AAd07396B36Fe02a22b33cf443582f682c82f",
+    56: "0xc587d9053cd1118f25F645F9E08BB98c9712A4EE",
+  },
+  bridgeAssetBSC: {
+    97: "0x012e4e1b0eded4bfc7829ec34aab9908c41356e5",
+    56: "0xcbd10403a63cc46b7cf35c39dc4966349cb416d5",
+  },
+  bridgeAssetPSC: {
+    910000: "0x73fCD994A8c25Cb23fD02FCb091c310037B78997",
+    900000: "0x0000000000000000000000000000000000001001",
+    920000: "",
+  },
+};
