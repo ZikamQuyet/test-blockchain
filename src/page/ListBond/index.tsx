@@ -31,14 +31,12 @@ function ListBonds1() {
           "X-Request-ID": uuidv4(),
         },
       });
-      return response.data;
+      setListBond(response.data.data.items);
     } catch (error) {}
   };
 
   useEffect(() => {
-    axios
-      .get("https://apex-qc.nonprodposi.com/bond/v1/api/bonds?page=1&limit=10")
-      .then((response) => setListBond(response.data.data.items));
+    getListBond();
   }, []);
 
   return (
