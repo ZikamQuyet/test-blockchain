@@ -38,7 +38,7 @@ export default function SelectWalletModal({
         />
         <ModalBody paddingBottom="1.5rem">
           <VStack>
-            <Button
+            {/* <Button
               variant="outline"
               onClick={() => {
                 activate(connectors.coinbaseWallet);
@@ -63,7 +63,7 @@ export default function SelectWalletModal({
               <HStack w="100%" justifyContent="center">
                 <Text>Wallet Connect</Text>
               </HStack>
-            </Button>
+            </Button> */}
             <Button
               variant="outline"
               onClick={() => {

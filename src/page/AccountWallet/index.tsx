@@ -25,6 +25,7 @@ function AccountWallet() {
   };
   useEffect(() => {
     console.log("running");
+    console.log("account: ", useWeb3React);
     if (library && account) {
       let stale = false;
 
@@ -51,6 +52,7 @@ function AccountWallet() {
   //   const provider = window.localStorage.getItem("provider");
   //   if (provider) activate(connectors[provider]);
   // }, []);
+
   return (
     <>
       <Center

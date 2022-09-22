@@ -5,12 +5,13 @@ import App from "./App";
 import { ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter } from "react-router-dom";
 import { Web3ReactProvider } from "@web3-react/core";
+import { Web3Provider } from "@ethersproject/providers";
 import { ethers } from "ethers";
-const getLibrary = (provider: any) => {
-  const library = new ethers.providers.Web3Provider(provider);
-  library.pollingInterval = 8000; // frequency provider is polling
+function getLibrary(provider:any) {
+  const library = new Web3Provider(provider);
+  library.pollingInterval = 12000;
   return library;
-};
+}
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
