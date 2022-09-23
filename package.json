@@ -27,6 +27,7 @@
     "bignumber.js": "^9.1.0",
     "dot-object": "^2.1.4",
     "ethers": "^5.7.1",
+    "formik": "^2.2.9",
     "framer-motion": "^7.3.5",
     "i18next": "^21.9.2",
     "lodash": "^4.17.21",
